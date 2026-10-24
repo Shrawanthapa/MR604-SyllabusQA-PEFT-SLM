@@ -1,4 +1,4 @@
-# MR604 - Parameter-Efficient Fine-Tuned Small Language Models for SyllabusQA
+# MR604 - Parameter-Efficient Fine-Tuned Small Language Models for Resource-Efficient Academic Support Question Answering
 
 **Author:** Shrawan Thapa (MIT243335)
 **Degree:** Master by ICT Research
@@ -51,4 +51,4 @@ Six fine-tuning conditions were evaluated using LoRA and QLoRA across three mode
 
 ## Citation
 
-Thapa, S. (2026). *Parameter-Efficient Fine-Tuning of Small Language Models for Course-Logistics Question Answering*. MR604 PhD Thesis.
+Thapa, S. (2026). *Parameter-Efficient Fine-Tuned Small Language Models for Resource-Efficient Academic Support Question Answering*. MR604 Master Thesis.
