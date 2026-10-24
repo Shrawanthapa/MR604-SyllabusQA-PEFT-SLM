@@ -1,0 +1,92 @@
+{
+  "condition": "R3_Mistral7B_LoRA_CONTEXT",
+  "em": 0.0,
+  "f1": 19.482734789783795,
+  "avg_latency_ms": 4117.589597271976,
+  "median_latency_ms": 4114.101835999918,
+  "peak_vram_gb": 13.70065450668335,
+  "model": "Mistral-7B",
+  "method": "LoRA",
+  "parameters": "7B",
+  "precision": "bfloat16",
+  "context_mode": "BM25-retrieved syllabus context",
+  "training_time_seconds": 1405.128156919,
+  "training_time_minutes": 23.418802615316668,
+  "peak_training_vram_gb": 14.897119998931885,
+  "trainable_parameters": 13631488,
+  "trainable_percentage": 0.18788152850204565,
+  "stratified": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 30.544749246825695,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 27.358624990997473,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 5.646162162051309,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 18.18792336439379,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 23.7342760777847,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 27.160067489626325,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 3.4846204633693176,
+      "count": 158
+    }
+  },
+  "stratified_em": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 30.544749246825695,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 27.358624990997473,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 5.646162162051309,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 18.18792336439379,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 23.7342760777847,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 27.160067489626325,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 3.4846204633693176,
+      "count": 158
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "condition": "R1_Phi3Mini_LoRA_CONTEXT",
+  "em": 0.09066183136899365,
+  "f1": 20.030474855918122,
+  "avg_latency_ms": 3555.7995224795764,
+  "median_latency_ms": 3553.2049979992735,
+  "peak_vram_gb": 7.421019554138184,
+  "model": "Phi-3 Mini",
+  "method": "LoRA",
+  "parameters": "3.8B",
+  "precision": "bfloat16",
+  "context_mode": "BM25-retrieved syllabus context",
+  "training_time_seconds": 1020.4686641820001,
+  "training_time_minutes": 17.0078110697,
+  "peak_training_vram_gb": 8.346474170684814,
+  "trainable_parameters": 9437184,
+  "trainable_percentage": 0.246368431478379,
+  "stratified": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 32.36454564195655,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 27.672887972944235,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.6451612903225806,
+      "f1": 4.881209318226651,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 19.170150307302354,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 24.631268176255663,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 28.53008922905726,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 2.6755290633229136,
+      "count": 158
+    }
+  },
+  "stratified_em": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 32.36454564195655,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 27.672887972944235,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.6451612903225806,
+      "f1": 4.881209318226651,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 19.170150307302354,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 24.631268176255663,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 28.53008922905726,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 2.6755290633229136,
+      "count": 158
+    }
+  }
+}

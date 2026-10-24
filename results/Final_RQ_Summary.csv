@@ -1,0 +1,4 @@
+RQ,Finding
+RQ1,Highest corrected SLM F1 was Phi-3-mini QLoRA (20.084%). Qwen zero-shot + context was 17.792% and Qwen 2-shot + context was 18.934%. 4/6 SLM conditions exceeded zero-shot; 4/6 exceeded 2-shot.
+RQ2,"Largest absolute observed LoRA–QLoRA F1 difference occurred for Phi-3-mini, single reasoning: -1.617 percentage points."
+RQ3,"4 of 6 corrected PEFT conditions were Pareto-efficient under F1, latency and evaluation VRAM. Under the secondary 50/25/25 weighting, the highest composite score was Phi-3-mini QLoRA (87.66/100)."

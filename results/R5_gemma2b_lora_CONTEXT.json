@@ -1,0 +1,90 @@
+{
+  "condition": "R5_Gemma2B_LoRA_CONTEXT",
+  "em": 0.0,
+  "f1": 17.309330980955256,
+  "avg_latency_ms": 2410.0891664206433,
+  "peak_vram_gb": 5.121471488,
+  "model": "Gemma-2B",
+  "method": "LoRA",
+  "parameters": "2B",
+  "precision": "bfloat16",
+  "context_mode": "BM25-retrieved syllabus context",
+  "training_time_minutes": 11.341848818883317,
+  "peak_training_vram_gb": 10.736784934997559,
+  "trainable_parameters": 3686400,
+  "trainable_percentage": 0.14687678751090355,
+  "stratified": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 27.36834577951585,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 24.89189678599837,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 2.8105169121450966,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 15.743390713401693,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 21.508616742795308,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 25.77098087146667,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 2.7962751233484022,
+      "count": 158
+    }
+  },
+  "stratified_em": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 27.36834577951585,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 24.89189678599837,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 2.8105169121450966,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 15.743390713401693,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 21.508616742795308,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 25.77098087146667,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 2.7962751233484022,
+      "count": 158
+    }
+  }
+}

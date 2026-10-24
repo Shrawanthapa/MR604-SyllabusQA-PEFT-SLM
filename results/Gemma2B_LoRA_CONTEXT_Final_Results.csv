@@ -1,0 +1,2 @@
+Condition,Model,Method,Parameters_B,Base_Precision,Context_Mode,EM_percent,F1_percent,Training_Time_min,Avg_Latency_ms,Peak_Eval_VRAM_GB,Peak_Train_VRAM_GB,Trainable_Params,Trainable_Pct,Gap_to_Qwen_ZeroShot_F1_pp,Gap_to_Qwen_2Shot_F1_pp
+R5_Gemma2B_LoRA_CONTEXT,Gemma-2B,LoRA,2.0,bfloat16,BM25-retrieved syllabus context,0.0,17.309330980955256,11.341848818883317,2410.0891664206433,5.121471488,10.736784934997559,3686400,0.14687678751090355,-1.1790472193900357,-1.6244721962145334

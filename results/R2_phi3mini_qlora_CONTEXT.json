@@ -1,0 +1,92 @@
+{
+  "condition": "R2_Phi3Mini_QLoRA_CONTEXT",
+  "em": 0.0,
+  "f1": 20.083966099779822,
+  "avg_latency_ms": 4344.340703075243,
+  "median_latency_ms": 4343.309605999821,
+  "peak_vram_gb": 3.2374329566955566,
+  "model": "Phi-3 Mini",
+  "method": "QLoRA",
+  "parameters": "3.8B",
+  "precision": "4-bit NF4 + double quantisation",
+  "context_mode": "BM25-retrieved syllabus context",
+  "training_time_seconds": 1310.7033546580005,
+  "training_time_minutes": 21.845055910966675,
+  "peak_training_vram_gb": 4.447921276092529,
+  "trainable_parameters": 9437184,
+  "trainable_percentage": 0.4675165769020635,
+  "stratified": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 31.14229832855178,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 29.034875584526002,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 3.2919163006588845,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 18.752304951459255,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 26.248500854988293,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 28.424614964009006,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 3.3744153256746436,
+      "count": 158
+    }
+  },
+  "stratified_em": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 31.14229832855178,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 29.034875584526002,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 3.2919163006588845,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.0,
+      "f1": 18.752304951459255,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 26.248500854988293,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 28.424614964009006,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 3.3744153256746436,
+      "count": 158
+    }
+  }
+}

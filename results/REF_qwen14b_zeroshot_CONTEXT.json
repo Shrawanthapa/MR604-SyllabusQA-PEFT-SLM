@@ -1,0 +1,9 @@
+{
+  "condition": "Qwen2.5-14B_ZeroShot_CONTEXT",
+  "em": 0.0,
+  "f1": 17.791841485911345,
+  "avg_latency_ms": 3776.84922025385,
+  "peak_eval_vram_gb": 27.71959686279297,
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "method": "zero-shot"
+}

@@ -1,0 +1,65 @@
+{
+  "condition": "Qwen2.5-14B_2Shot_CONTEXT",
+  "em": 0.09066183136899365,
+  "f1": 18.93380317716979,
+  "avg_latency_ms": 3528.324577320942,
+  "peak_vram_gb": 29.863911936,
+  "model": "Qwen2.5-14B-Instruct",
+  "method": "2-Shot Prompting",
+  "shots": 2,
+  "parameters": "14B",
+  "precision": "bfloat16",
+  "context_mode": "BM25-retrieved syllabus context",
+  "role": "Larger few-shot reference; not adaptation-matched",
+  "demonstrations": [
+    {
+      "train_index": 506,
+      "question_type": "yes/no",
+      "question": "Are there prerequisites?",
+      "answer": "Yes"
+    },
+    {
+      "train_index": 100,
+      "question_type": "no answer",
+      "question": "can i monitors?",
+      "answer": "No/insufficient information"
+    }
+  ],
+  "stratified": {
+    "multi factual": {
+      "exact_match": 0.0,
+      "f1": 29.818916700343646,
+      "count": 158
+    },
+    "multi reasoning": {
+      "exact_match": 0.0,
+      "f1": 25.518019360303537,
+      "count": 158
+    },
+    "no answer": {
+      "exact_match": 0.0,
+      "f1": 3.6267020585856935,
+      "count": 155
+    },
+    "single factual": {
+      "exact_match": 0.6329113924050633,
+      "f1": 18.21062465416295,
+      "count": 158
+    },
+    "single reasoning": {
+      "exact_match": 0.0,
+      "f1": 23.47222451852913,
+      "count": 158
+    },
+    "summarization": {
+      "exact_match": 0.0,
+      "f1": 28.524771889460265,
+      "count": 158
+    },
+    "yes/no": {
+      "exact_match": 0.0,
+      "f1": 3.074721898323858,
+      "count": 158
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "zero_shot_context": {
+    "em": 0.0,
+    "f1": 18.48837820034529,
+    "avg_latency_ms": 3597.4635500172326,
+    "peak_vram_gb": 29.867638272
+  },
+  "two_shot_context": {
+    "em": 0.09066183136899365,
+    "f1": 18.93380317716979,
+    "avg_latency_ms": 3528.324577320942,
+    "peak_vram_gb": 29.863911936
+  },
+  "two_shot_minus_zero_shot": {
+    "delta_em_pp": 0.09066183136899365,
+    "delta_f1_pp": 0.4454249768244978
+  }
+}

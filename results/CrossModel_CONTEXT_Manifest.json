@@ -1,0 +1,42 @@
+{
+  "analysis": "Final corrected cross-model comparison",
+  "source_mode": "BM25-retrieved syllabus context",
+  "dataset": "SyllabusQA",
+  "split": {
+    "train": 3018,
+    "validation": 957,
+    "test": 1103
+  },
+  "six_peft_conditions": [
+    "R5_Gemma2B_LoRA_CONTEXT",
+    "R6_Gemma2B_QLoRA_CONTEXT",
+    "R1_Phi3Mini_LoRA_CONTEXT",
+    "R2_Phi3Mini_QLoRA_CONTEXT",
+    "R3_Mistral7B_LoRA_CONTEXT",
+    "R4_Mistral7B_QLoRA_CONTEXT"
+  ],
+  "references": [
+    "Qwen2.5-14B Zero-Shot + Context",
+    "Qwen2.5-14B 2-Shot + Context"
+  ],
+  "primary_metrics": [
+    "token-level F1",
+    "Exact Match",
+    "average inference latency",
+    "peak evaluation VRAM"
+  ],
+  "adaptation_metrics": [
+    "training time",
+    "peak training VRAM"
+  ],
+  "pareto_dimensions": [
+    "maximize F1",
+    "minimize inference latency",
+    "minimize evaluation VRAM"
+  ],
+  "composite_weights": {
+    "F1": 0.5,
+    "latency_efficiency": 0.25,
+    "evaluation_vram_efficiency": 0.25
+  }
+}

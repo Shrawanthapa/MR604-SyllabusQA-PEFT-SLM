@@ -1,0 +1,50 @@
+{
+  "notebook": "3_Mistral7B_CONTEXT",
+  "model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dataset": "SyllabusQA",
+  "dataset_split": {
+    "train": 3018,
+    "validation": 957,
+    "test": 1103
+  },
+  "context_pipeline": {
+    "method": "BM25 syllabus-context retrieval",
+    "chunk_words": 90,
+    "chunk_overlap": 30,
+    "top_k": 2,
+    "max_sequence_length": 512
+  },
+  "seed": 42,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_vram_gb": 39.4935302734375,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "learning_rate": 0.0002,
+  "epochs": 3,
+  "batch_size": 4,
+  "gradient_accumulation": 4,
+  "effective_batch": 16,
+  "warmup_ratio_design": 0.03,
+  "optimizer": "paged_adamw_8bit",
+  "qlora_quantization": "4-bit NF4 + double quantisation",
+  "metrics": [
+    "Exact Match",
+    "token-level F1",
+    "average inference latency",
+    "median inference latency",
+    "peak evaluation VRAM",
+    "training time",
+    "peak training VRAM"
+  ],
+  "qwen_reference": {
+    "zero_shot_context_file": "REF_qwen14b_zeroshot_CONTEXT.json",
+    "two_shot_context_file": "REF_qwen14b_2shot_CONTEXT.json"
+  }
+}
