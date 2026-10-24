@@ -51,4 +51,4 @@ Six fine-tuning conditions were evaluated using LoRA and QLoRA across three mode
 
 ## Citation
 
-Thapa, S. (2026). *Parameter-Efficient Fine-Tuned Small Language Models for Resource-Efficient Academic Support Question Answering*. MR604 Master Thesis.
+S. Thapa, *Parameter-Efficient Fine-Tuned Small Language Models for Resource-Efficient Academic Support Question Answering*. MR604 Master Thesis, (2026).
